@@ -94,7 +94,8 @@ app.py          Tkinter 화면 (슬롯 릴, 목록, 대화상자)
 core.py         유사도, 릴 배열, CSV/TXT 파싱 (표준 라이브러리만 사용)
 i18n.py         영어/한국어 화면 문구
 test_core.py    단위 테스트 (python test_core.py)
-build.bat       테스트 + PyInstaller 단일 파일 빌드
+build.bat       테스트 + PyInstaller 단일 파일 빌드 (쓰지 않는 표준 라이브러리 제외)
+THIRD-PARTY-NOTICES.md  exe에 포함된 구성 요소의 라이선스
 samples/        샘플 키워드 목록 (영어/한국어)
 tools/          check_samples.py: 샘플과 다른 목록의 겹침 검사
 doc/            동작 원리 문서 (영어/한국어), 스크린샷
@@ -108,3 +109,5 @@ doc/            동작 원리 문서 (영어/한국어), 스크린샷
 ## 라이선스
 
 [MIT](LICENSE). 누구나 자유롭게 쓰고, 고치고, 나눌 수 있습니다.
+
+`CurioSpin.exe`에는 각자의 라이선스를 따르는 Python, Tcl/Tk와 몇 가지 작은 라이브러리도 함께 들어 있습니다. [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)를 참고하세요.

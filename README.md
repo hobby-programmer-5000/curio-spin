@@ -94,7 +94,8 @@ app.py          Tkinter UI (slot reel, lists, dialogs)
 core.py         similarity, reel arrangement, CSV/TXT parsing (standard library only)
 i18n.py         English/Korean UI strings
 test_core.py    unit tests (python test_core.py)
-build.bat       tests + PyInstaller one-file build
+build.bat       tests + PyInstaller one-file build (unused stdlib parts excluded)
+THIRD-PARTY-NOTICES.md  licenses of the components bundled in the exe
 samples/        sample keyword lists (EN/KO)
 tools/          check_samples.py: overlap check of the samples against a reference list
 doc/            how it works (EN/KO), screenshots
@@ -108,3 +109,5 @@ doc/            how it works (EN/KO), screenshots
 ## License
 
 [MIT](LICENSE). Anyone can use, change and share it.
+
+`CurioSpin.exe` also bundles Python, Tcl/Tk and a few small libraries under their own licenses. See [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
