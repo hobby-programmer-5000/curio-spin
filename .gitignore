@@ -1,0 +1,13 @@
+# user data saved next to the executable
+keyword_slot_data.json
+keyword_slot_data.json.tmp
+
+# build output
+build/
+dist/
+*.spec
+
+# Python
+.venv/
+__pycache__/
+*.pyc
