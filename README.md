@@ -81,6 +81,12 @@ Encodings: UTF-8 (with or without BOM), UTF-16, and CP949/EUC-KR (Korean Excel).
 
 Every topic was checked against the book's topic list so that none of them overlap. The checks looked for exact matches, one name containing another, and the similarity score used by the app. The remaining flagged pairs were reviewed by hand. They only share common words like "music", "theorem" or a first name, and are different topics.
 
+You can rerun the check against any list of your own (the reference file is not part of this repository):
+
+```bat
+python tools\check_samples.py my_reference_list.csv
+```
+
 ## Project layout
 
 ```
@@ -90,6 +96,7 @@ i18n.py         English/Korean UI strings
 test_core.py    unit tests (python test_core.py)
 build.bat       tests + PyInstaller one-file build
 samples/        sample keyword lists (EN/KO)
+tools/          check_samples.py: overlap check of the samples against a reference list
 doc/            how it works (EN/KO), screenshots
 ```
 
