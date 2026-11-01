@@ -2,6 +2,10 @@
 keyword_slot_data.json
 keyword_slot_data.json.tmp
 
+# agent notes kept local (accounts, local paths, progress)
+CLAUDE.local.md
+PROGRESS.md
+
 # build output
 build/
 dist/
